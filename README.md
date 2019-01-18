@@ -20,7 +20,9 @@ S3
 
 ## Data Source
 
-The data source for detecting roof-top solar panels will be Google earth engine while the data for cloud variaiton will be from Planet.com 
+Google earth engine 
+
+Planet.com 
 
 ## Engineering Challenge
 
