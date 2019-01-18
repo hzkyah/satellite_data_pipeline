@@ -1,7 +1,7 @@
 # satellite_object_detection
 Uses realtime satellite data to identify solar panel objects and cloud coverage variation.
 
-##Project Idea 
+## Project Idea 
 Tech Stack
 Data Source
 Engineering Challenge
