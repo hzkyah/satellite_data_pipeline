@@ -10,7 +10,7 @@ This project is especially concerned with identifying roof-top solar panels from
 
 Python/Dart
 
-Kafka
+Kafka/stream
 
 gRPC/ProtoBuf
 
