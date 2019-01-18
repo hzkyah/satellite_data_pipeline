@@ -9,9 +9,13 @@ This project is especially concerned with identifying roof-top solar panels from
 ## Tech Stack
 
 Python/Dart
+
 Kafka
+
 ProtoBuf
+
 Flutter
+
 S3
 
 ## Data Source
