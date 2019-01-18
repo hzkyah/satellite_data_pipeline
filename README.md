@@ -25,6 +25,7 @@ The data source for detecting roof-top solar panels will be Google earth engine 
 ## Engineering Challenge
 
 Efficient processing of video stream data to extract useful image features and piping this reliably to an object detcting ML model.
+
 Building a collection containing one representative image per hour for each solar panel locations.
 
 
