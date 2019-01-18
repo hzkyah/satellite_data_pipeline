@@ -12,7 +12,7 @@ Python/Dart
 
 Kafka
 
-ProtoBuf
+gRPC/ProtoBuf
 
 Flutter
 
