@@ -11,13 +11,14 @@ This project is especially concerned with identifying roof-top solar panels from
 The data source for detecting roof-top solar panels will be Google earth engine while the data for cloud variaiton will be from Planet.com 
 
 ## Engineering Challenge
+Efficient processing of video stream data to extract useful image features and piping this reliably to an object detcting ML model.
 
 
 ## Business Value
 
 
 ## MVP
-
+A system 
 
 ## Stretch Goals
 General purpose realtime object detection and query system from a live view of satellite video stream.
