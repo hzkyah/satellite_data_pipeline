@@ -1,6 +1,6 @@
 # Roof-top solar panel and cloud variation detection
 
-Uses realtime satellite data to identify roof-top solar panel objects and cloud coverage variation.
+Uses satellite data to identify roof-top solar panel objects and cloud coverage variation.
 
 ## Project Idea 
 
