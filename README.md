@@ -22,13 +22,15 @@ S3
 
 Google earth engine 
 
-Planet.com 
+Planet API
 
 ## Engineering Challenge
 
 Efficient processing of video stream data to extract useful image features and piping this reliably to an object detcting ML model.
 
 Building a collection containing one representative image per hour for each solar panel locations.
+
+Possible timestamp crunching/accelerating of stale data.
 
 
 ## Business Value
