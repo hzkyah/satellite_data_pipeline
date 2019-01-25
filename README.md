@@ -18,7 +18,6 @@ Flutter
 
 S3
 
-OpenCV
 
 ## Data Source
 
