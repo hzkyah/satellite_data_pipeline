@@ -1,10 +1,10 @@
-# Timeseries geospacial data of cloud covarage to help estimate energy generation capacity of roof-top solar panels
+# Timeseries geospacial data of cloud covarage
 
 Uses satellite data to build cloud cover history of geolocations for capacity planning of roof-top solar panels.
 
 ## Project Idea 
 
-This project is especially concerned with collecting historical cloud coverage data of spacially high resolution data points. 
+This project is especially concerned with collecting historical cloud coverage data of spacially high resolution data points. This helps to estimate energy generation capacity of roof-top solar panels.
 
 ## Tech Stack
 
