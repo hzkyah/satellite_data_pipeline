@@ -1,25 +1,29 @@
 # Roof-top solar panel and cloud variation detection
 
-Uses satellite data to identify roof-top solar panel objects and cloud coverage variation.
+Uses satellite data of cloud cover variation for capacity planning of roof-top solar panels.
 
 ## Project Idea 
 
-This project is especially concerned with identifying roof-top solar panels from satellite imagery and associating this with data of their surrounding sun light exposure intensity. 
+This project is especially concerned with collecting historical cloud coverage data of spacially high resolution data points. 
 
 ## Tech Stack
 
-Python/Dart
+Python + S3 + Spark + WebGL
 
 Kafka/stream
 
-gRPC/ProtoBuf
+Spark
 
-Flutter
+WebGL
 
 S3
 
 
 ## Data Source
+
+Landsat 8
+
+Sentine-2
 
 Google earth engine 
 
@@ -27,9 +31,7 @@ Planet API
 
 ## Engineering Challenge
 
-Efficient processing of video stream data to extract useful image features and piping this reliably to an object detcting ML model.
-
-Building a collection containing one representative image per hour for each solar panel locations.
+Efficient processing of rastrer satellite images to extract useful metadata features and pipelining this for data exploration.
 
 Possible timestamp crunching/accelerating of stale data.
 
@@ -41,8 +43,9 @@ Energy demand estimation.
 
 ## MVP
 
-A system which detects the latest (upto 2 weeks late) distibution of roof-top solar panels and their corresponding sun light exposure for a sub-city section of San Fransico.
+A web app presentation of timeseries cloud data for roof-top solar panels (their potential geolocations) on a section of San Fransico.
 
 ## Stretch Goals
 
-General purpose realtime object detection and query system from a live view of satellite video stream.
+General purpose realtime satellite data extraction and presentation/query system from a live stream of satellite data.
+
