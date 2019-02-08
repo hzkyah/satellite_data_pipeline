@@ -1,6 +1,6 @@
-# Roof-top solar panel and cloud variation detection
+# Timeseries geospacial data of cloud covarage to help estimate energy generation capacity of roof-top solar panels
 
-Uses satellite data of cloud cover variation for capacity planning of roof-top solar panels.
+Uses satellite data to build cloud cover history of geolocations for capacity planning of roof-top solar panels.
 
 ## Project Idea 
 
