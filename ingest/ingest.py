@@ -57,7 +57,7 @@ def run():
    output_file = known_args.output_file
    output_dir = known_args.output_dir
 
-   lat =-37.70; lon = -122.40     # center of SF 37.70555348721583, -122.40829467773436
+   lat =37.70; lon = -122.40     # center of SF 37.70555348721583, -122.40829467773436
    dlat = 0.4; dlon = 0.4
 
    # Read the index file and find all scenes that cover this area
