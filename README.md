@@ -10,15 +10,6 @@ This project is especially concerned with collecting historical cloud coverage d
 
 Python + S3 + Spark + WebGL
 
-Kafka/stream
-
-Spark
-
-WebGL
-
-S3
-
-
 ## Data Source
 
 Landsat 8
@@ -33,9 +24,6 @@ Planet API
 
 Efficient processing of rastrer satellite images to extract useful metadata features and pipelining this for data exploration.
 
-Possible timestamp crunching/accelerating of stale data.
-
-
 ## Business Value
 
 Energy harvest capacity predition.
@@ -48,4 +36,3 @@ A web app presentation of timeseries cloud data for roof-top solar panels (their
 ## Stretch Goals
 
 General purpose realtime satellite data extraction and presentation/query system from a live stream of satellite data.
-
