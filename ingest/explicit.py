@@ -5,11 +5,7 @@ import shutil
 from lxml import html
 from datetime import datetime as dt
 from requests import get
-
-try:
-    from urllib.parse import urlparse, urlunparse
-except ImportError:
-    from urlparse import urlparse, urlunparse
+from urllib import urlparse, urlunparse
 
 sys.path.append(os.path.dirname(__file__))
 
@@ -152,7 +148,7 @@ class GCDownload(object):
     def _make_url(row, band):
 
         parse = urlparse('http://storage.googleapis.com/gcp-public-data-landsat/LC08/01/037/029/'
-                         'LC08_L1TP_037029_20130101_20190131_01_T1/LC08_L1TP_037029_20130101_20190131_01_T1_B2.TIF')
+                         'LC08_L1TP_037029_20130101_20190131_01_T1/LC08_L1TP_037029_20130101_20190131_01_T1_B9.TIF')
 
         base = row.BASE_URL.replace('gs://', '')
         path = '{}/{}_{}'.format(base, row.PRODUCT_ID, band)
