@@ -26,7 +26,8 @@ def get_metadata(line):
     def windows(line, ws):
         for w in ws:
             ((row_start, row_stop), (col_start, col_stop)) = w
-
+	    area_of_interest = box(-122.47678756713866, 37.80924146650164, -122.46288299560545, 37.80490143094975)
+            new_line['projected_extent'] = gps.TemporalProjectedExtent(extent=extent, instant=instant, proj4=proj4, geometries=area_of_interest)
             left  = bounds.left + (bounds.right - bounds.left)*(float(col_start)/width)
             right = bounds.left + (bounds.right - bounds.left)*(float(col_stop)/ width)
             bottom = bounds.top + (bounds.bottom - bounds.top)*(float(row_stop)/height)
@@ -38,9 +39,7 @@ def get_metadata(line):
             new_line.pop('date')
             new_line.pop('scene_id')
             new_line['window'] = w
-			area_of_interest = box(-122.47678756713866, 37.80924146650164, -122.46288299560545, 37.80490143094975)
-            new_line['projected_extent'] = gps.TemporalProjectedExtent(extent=extent, instant=instant, proj4=proj4, geometries=area_of_interest)
-            yield new_line
+	    yield new_line
     
     return [i for i in windows(line, ws)]
 
