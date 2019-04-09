@@ -1,4 +1,4 @@
-# Timeseries geospacial data of cloud covarage
+# Timeseries geospatial data of cloud covarage
 
 Uses satellite data to build cloud cover history of geolocations for capacity planning of roof-top solar panels.
 
