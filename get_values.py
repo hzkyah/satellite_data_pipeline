@@ -83,6 +83,8 @@ if __name__ == "__main__":
     raster_layer = gps.RasterLayer.from_numpy_rdd(gps.LayerType.SPACETIME, num_partitions=840, rdd3)
     tiled_raster_layer = raster_layer.tile_to_layout(layout = gps.GlobalLayout(), target_crs=3857)
     pyramid = tiled_raster_layer.pyramid()
-
-    for layer in pyramid.levels.values():
-        gps.write("file:///tmp/values/", "landsat", layer, time_unit=gps.TimeUnit.DAYS)
+	
+    with open('SF_hex.csv', 'r') as SFgrids:
+        coord = csv.reader(SFgrids)
+    	for layer in pyramid.levels.values(coord):
+            gps.write("file:///tmp/values/", "landsat", layer, time_unit=gps.TimeUnit.DAYS)
